@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #82616d;
+  display: flex;
+}
+#left {
+  overflow: hidden;
+
+  width: 44%;
+  height: 100%;
+  /* background-color: yellowgreen; */
+  position: relative;
+  /* display: flex; */
+}
+#nav {
+  overflow: hidden;
+
+  width: 100%;
+
+  /* background-color: red; */
+  padding: 20px 20px;
+
+  display: flex;
+  /* gap: 50px; */
+  /* justify-content: space-between; */
+  align-items: center;
+}
+#nav h5 {
+  font-size: 1.5vw;
+  margin-right: 90px;
+  scale: 1.1;
+}
+#nav a {
+  color: #fff;
+  font-size: 1vw;
+  margin-right: 50px;
+}
+#img {
+  height: 53%;
+  width: 55%;
+  border-radius: 2px;
+  /* background-color: red; */
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(https://images.unsplash.com/photo-1473286835901-04adb1afab03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+  background-size: cover;
+}
+
+#centre {
+  /* overflow: hidden; */
+  position: relative;
+  width: 48%;
+  height: 100%;
+  /* background-color: green; */
+  background-image: url(https://images.unsplash.com/photo-1580456596733-b715d1879a3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
+  background-size: cover;
+  background-position: top -29px right 4px;
+  opacity: 0.8;
+}
+#right {
+  overflow: hidden;
+
+  padding-top: 40px;
+  width: 8%;
+  height: 100%;
+  /* background-color: yellow; */
+}
+#box {
+  position: absolute;
+  top: 110%;
+  width: 100%;
+}
+#box #a {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-bottom: 17px;
+}
+#box #a h4 {
+  font-size: 1vw;
+  white-space: nowrap;
+}
+#box #a p {
+  color: rgba(255, 255, 255, 0.801);
+  font-size: 0.75vw;
+  font-weight: 100;
+  line-height: 1.25;
+}
+#box #b {
+  display: flex;
+  align-items: center;
+
+  gap: 48px;
+}
+#box #b h4 {
+  white-space: nowrap;
+
+  font-size: 1vw;
+}
+#box #b p {
+  color: rgba(255, 255, 255, 0.801);
+
+  font-size: 0.75vw;
+}
+#scroll {
+  position: absolute;
+  top: 100%;
+  left: 35px;
+  transform-origin: 0% 50%;
+  transform: rotate(-90deg);
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+#line {
+  width: 105px;
+  height: 2.15px;
+  background-color: #3b0202d0;
+}
+#scroll h2 {
+  font-size: 0.84vw;
+  letter-spacing: 3px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#mtext {
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+#mtext h1 {
+  font-size: 6.6vw;
+  white-space: nowrap;
+  font-family: a;
+  font-weight: 200;
+  color: #fcff37e3;
+}
+#mtext p {
+  font-size: 2.26vw;
+  font-family: a;
+  color: #343514;
+}
+#rtext {
+  padding-top: 130px;
+  margin-bottom: -10px;
+  padding-left: -100px;
+  transform-origin: 0% 50%;
+  transform: rotate(-90deg);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 29px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#rtext h6 {
+  font-size: 0.76vw;
+  letter-spacing: -1;
+}
+#icon {
+  padding-left: 60px;
+}
+#icon i {
+  font-size: 1.69vw;
+  color: #000;
+}
+#main #photo {
+  position: absolute;
+  bottom: 70px;
+  right: 50px;
+  display: flex;
+  /* background-color: red; */
+  width: 257px;
+  height: 145px;
+  z-index: 9999;
+}
+#white {
+  width: 72px;
+  height: 100%;
+  background-color: #fff;
+}
+#main #imag {
+  width: 185px;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1489861518096-4d12b732e831?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2136&q=80);
+  background-size: cover;
+  opacity: 0.99;
+}
+#ic {
+  padding: 23.9px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+#ic i {
+  color: #000;
+  font-size: 1.5vw;
+  font-weight: 900;
+}
+#opc {
+  height: 100%;
+  width: 100%;
+  /* background-color: #f1eaa642; */
+  background-color: #29262657;
+}
